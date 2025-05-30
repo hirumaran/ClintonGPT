@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+# ClintonGPT
 
-## Project info
+A fun and interactive chatbot that responds with contextual GIFs and classic Clinton-style responses. Built with React, TypeScript, and Vite.
 
-**URL**: https://lovable.dev/projects/c066a161-6b8c-4a17-90a7-ed21107fa0e9
+## Features
 
-## How can I edit this code?
+- Interactive chat interface
+- Contextual GIF responses using Giphy API
+- Classic "Suure!" and "Put that one on the Need to know list!" responses
+- Smart response categorization
+- Modern UI with Tailwind CSS and shadcn/ui components
 
-There are several ways of editing your application.
+## Getting Started
 
-**Use Lovable**
+### Prerequisites
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c066a161-6b8c-4a17-90a7-ed21107fa0e9) and start prompting.
+- Node.js (v14 or higher)
+- npm or yarn
 
-Changes made via Lovable will be committed automatically to this repo.
+### Installation
 
-**Use your preferred IDE**
+1. Clone the repository:
+```bash
+git clone https://github.com/hirumaran/ClintonGPT.git
+cd ClintonGPT
+```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+2. Install dependencies:
+```bash
+npm install
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open [http://localhost:8081](http://localhost:8081) in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Usage
 
-**Use GitHub Codespaces**
+Simply type your message in the chat input and press Enter or click the send button. The chatbot will respond with a contextual GIF and a classic Clinton-style response.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Technologies Used
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
 - React
-- shadcn-ui
+- TypeScript
+- Vite
 - Tailwind CSS
+- shadcn/ui
+- Giphy API
 
-## How can I deploy this project?
+## License
 
-Simply open [Lovable](https://lovable.dev/projects/c066a161-6b8c-4a17-90a7-ed21107fa0e9) and click on Share -> Publish.
+This project is open source and available under the MIT License.
 
-## Can I connect a custom domain to my Lovable project?
+## Author
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+[Thirumaran Deepak](https://github.com/hirumaran)
